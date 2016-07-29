@@ -31,7 +31,7 @@ void loop() {
   }
 
   if (step == 1) {
-    THROTTLE = 50;
+    THROTTLE = 504;
     PITCH = 100;
     CoDrone.Control();
   } else if (step == 2) {
